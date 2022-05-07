@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@wemo-ui/marrs": ["./packages/marrs-ui/src"],
+        "@wemo-ui/marrs/*": ["./packages/marrs-ui/src/*"],
+        "@wemo-ui/marrs-theming": ["./packages/marrs-ui-theming/src"],
+        "@wemo-ui/marrs-theming/*": ["./packages/marrs-ui-theming/src/*"],
+        "@wemo-ui/marrs-icons": ["./packages/marrs-ui-icons/src"],
+        "@wemo-ui/marrs-icons/*": ["./packages/marrs-ui-icons/src/*"],
+        "@wemo-ui/marrs-core/*": ["./packages/marrs-core/*"]
+      }
+  }
+}

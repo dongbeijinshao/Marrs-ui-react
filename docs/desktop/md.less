@@ -1,0 +1,342 @@
+ul,
+ol {
+  list-style: none;
+}
+
+.weimob-doc-content {
+  box-sizing: border-box;
+  padding: 115px 415px 0 235px;
+  overflow: hidden;
+}
+
+.weimob-doc-container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 220px;
+  overflow: hidden;
+  padding-right: 390px;
+}
+
+.weimob-doc-content .intro {
+  background: #ffffff;
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  .weimob-doc-slogan {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .weimob-doc-slogan__logo {
+      width: 144px;
+      height: 182px;
+    }
+    .weimob-doc-slogan__desc {
+      margin: 16px 0 0 0;
+      font-size: 20px;
+      font-weight: 400;
+      color: #8a98ac;
+    }
+  }
+  .weimob-doc-intro {
+    padding: 20px;
+    .weimob-doc-intro__title {
+      height: 28px;
+      font-size: 16px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      font-weight: 600;
+      color: #263a5b;
+      line-height: 28px;
+    }
+    .weimob-doc-intro__desc {
+      margin: 16px 0 0 0;
+      font-size: 12px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: #263a5b;
+      line-height: 20px;
+    }
+  }
+}
+.weimob-doc-content .card {
+  margin-bottom: 24px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 8px 12px #ebedf0;
+  pre {
+    background: #f7f8fa;
+    border-left: 2px solid #0270fe;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 10px 0 10px 20px;
+    font-size: 12px;
+  }
+  .language-html,
+  code {
+    line-height: 20px;
+    color: #455a64;
+  }
+}
+.weimob-doc-content a {
+  text-decoration: none;
+  color: #1989fa;
+}
+.weimob-doc-content h1,
+.weimob-doc-content h2,
+.weimob-doc-content h3,
+.weimob-doc-content h4,
+.weimob-doc-content h5,
+.weimob-doc-content h6 {
+  color: #333;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.weimob-doc-content h1[id],
+.weimob-doc-content h2[id],
+.weimob-doc-content h3[id],
+.weimob-doc-content h4[id],
+.weimob-doc-content h5[id],
+.weimob-doc-content h6[id] {
+  cursor: pointer;
+}
+.weimob-doc-content h1 {
+  height: 40px;
+  font-size: 26px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #263a5b;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.weimob-doc-content h2 {
+  margin: 45px 0 20px;
+  font-size: 22px;
+}
+.weimob-doc-content h3 {
+  font-size: 16px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #263a5b;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.weimob-doc-content h4 {
+  margin: 24px 0 12px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.weimob-doc-content h5 {
+  margin: 24px 0 12px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.weimob-doc-content p {
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #263a5b;
+  line-height: 20px;
+}
+.weimob-doc-content table {
+  width: 100%;
+  margin-top: 12px;
+  color: #34495e;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 6px;
+  border-collapse: collapse;
+}
+.weimob-doc-content table th {
+  padding: 8px 10px;
+  font-weight: 500;
+  text-align: left;
+}
+.weimob-doc-content table th:first-child {
+  padding-left: 0;
+}
+.weimob-doc-content table th:last-child {
+  padding-right: 0;
+}
+.weimob-doc-content table td {
+  padding: 8px;
+  border-top: 1px solid #f1f4f8;
+}
+.weimob-doc-content table td:first-child {
+  padding-left: 0;
+}
+.weimob-doc-content table td:last-child {
+  padding-right: 0;
+}
+.weimob-doc-content table code {
+  padding: 0 8px;
+  font-size: 13px;
+  font-family: inherit;
+  word-break: keep-all;
+}
+.weimob-doc-content table em {
+  color: #a7419e;
+  font-size: 12px;
+  font-family: 'Source Code Pro', 'Monaco', 'Inconsolata', monospace;
+  font-style: normal;
+}
+.weimob-doc-content ul li,
+.weimob-doc-content ol li {
+  position: relative;
+  margin: 5px 0 5px 10px;
+  padding-left: 15px;
+  color: #34495e;
+  font-size: 14px;
+  line-height: 22px;
+}
+.weimob-doc-content ul li::before,
+.weimob-doc-content ol li::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 6px;
+  height: 6px;
+  margin-top: 8px;
+  border: 1px solid #666;
+  border-radius: 50%;
+  content: '';
+}
+.weimob-doc-content hr {
+  margin: 30px 0;
+  border: 0 none;
+  border-top: 1px solid #eee;
+}
+.weimob-doc-content p > code,
+.weimob-doc-content li > code,
+.weimob-doc-content table code {
+  display: inline;
+  margin: 2px 3px;
+  padding: 2px 5px;
+  background-color: #f0f2f5;
+  box-shadow: none;
+}
+
+.weimob-doc-content blockquote {
+  margin: 20px 0 0;
+  padding: 16px;
+  color: rgba(52, 73, 94, 0.8);
+  font-size: 14px;
+  background: #ecf9ff;
+  border-left: 2px solid #0270fe;
+  border-radius: 4px;
+}
+.weimob-doc-content--changelog strong {
+  display: block;
+  margin: 12px 0;
+  font-weight: 500;
+  font-size: 15px;
+}
+.weimob-doc-content--changelog h3 + p code {
+  margin: 0;
+}
+.weimob-doc-content--changelog h3 a {
+  color: inherit;
+  font-size: 20px;
+}
+.weimob-doc-card {
+  margin-bottom: 24px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 8px 12px #ebedf0;
+}
+
+/*
+highlight.js样式表
+*/
+
+/* Death Star Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #b6b18b;
+}
+
+/* Darth Vader */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #1989fa;
+}
+
+/* Yoda */
+.hljs-title,
+.hljs-section {
+  color: #78bb65;
+}
+
+/* Millenium Falcon */
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #1c1d21;
+  color: #c0c5ce;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+//.hljs-attribute {
+//  color: #e6550d;
+//}
+
+.hljs-attr,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-strong {
+  color: #1989fa;
+}
+.hljs-string,
+.hljs-meta,
+.hljs-symbol,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition {
+  color: #5758bb;
+}
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-bullet,
+.hljs-link {
+  color: #07c160;
+}
+.hljs-attr,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-strong {
+  color: #1989fa;
+}

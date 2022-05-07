@@ -1,0 +1,15 @@
+import { createStyled, shouldForwardProp } from '../dependencies/system';
+import defaultTheme from './defaultTheme';
+
+export const rootShouldForwardProp = (prop) =>
+  shouldForwardProp(prop) && prop !== 'classes';
+
+export const slotShouldForwardProp = shouldForwardProp;
+
+const styled = createStyled({
+  defaultTheme,
+  rootShouldForwardProp,
+  slotShouldForwardProp
+});
+
+export default styled;
